@@ -1,7 +1,9 @@
 def count():
     x = 0
-    while x < 10:
-        x = x*x
-        print(f'O valor de x agora é: ', x)
-
+    y = 2
+    while (x < 10 and y < 12):
+        z = x*y
+        print(f'O valor de z agora é: ', z)
+        x = x + 1
+        y = y + 1
 count()
